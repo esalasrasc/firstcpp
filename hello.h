@@ -1,8 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
+#ifndef H_HELLO
+#define H_HELLO
 
-void Hello(void)
-{
-	printf("Hello World !\n");
-}
-	
+void Hello(void);
+
+#endif
